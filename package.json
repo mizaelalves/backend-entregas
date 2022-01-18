@@ -3,10 +3,21 @@
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
+  "description": "Delivery system using node.js with typescript",
+  "author": "Mizael Alves",
+  "homepage": "https://github.com/mizaelalves/backend-delivery",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mizaelalves/backend-delivery"
+  },
+  "engines": {
+    "yarn": ">=1.22.5",
+    "prisma": ">=3.7.0",
+    "ts-node": ">=10.4.0",
+    "node": ">=14.17.5"
+  },
   "scripts": {
-    "dev": "ts-node-dev --exit-child --transpile-only --ignore-watch node_modules src/server.ts",
-
-    "start": "nodemon --watch './src' --ignore './node_modules' --exec ts-node-dev src/server.ts"
+    "dev": "ts-node-dev --exit-child --transpile-only --ignore-watch node_modules src/server.ts"
   },
   "devDependencies": {
     "@types/bcrypt": "^5.0.0",
@@ -14,6 +25,7 @@
     "@types/jsonwebtoken": "^8.5.6",
     "nodemon": "^2.0.15",
     "prisma": "^3.7.0",
+    "readme-md-generator": "^1.0.0",
     "ts-node": "^10.4.0",
     "ts-node-dev": "^1.1.8",
     "tslib": "^2.3.1",
