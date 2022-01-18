@@ -37,6 +37,7 @@ yarn install
 ```sh
 yarn dev
 ```
+Project started at this address http://localhost:3000
 
 ## Author
 
