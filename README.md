@@ -3,7 +3,6 @@
   <img alt="Version" src="https://img.shields.io/badge/version-1.0.0-blue.svg?cacheSeconds=2592000" />
   <img src="https://img.shields.io/badge/yarn-%3E%3D1.22.5-blue.svg" />
   <img src="https://img.shields.io/badge/prisma-%3E%3D3.7.0-blue.svg" />
-  <img src="https://img.shields.io/badge/ts-node-%3E%3D10.4.0-blue.svg" />
   <img src="https://img.shields.io/badge/node-%3E%3D14.17.5-blue.svg" />
   <a href="https://github.com/mizaelalves/backend-delivery#readme" target="_blank">
     <img alt="Documentation" src="https://img.shields.io/badge/documentation-yes-brightgreen.svg" />
